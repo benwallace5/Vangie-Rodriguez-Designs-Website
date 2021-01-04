@@ -25,7 +25,7 @@ hr {
 }
 
 a.about{
-  color: black;
+   color: black;
 }
 
 /* `Headings
@@ -69,8 +69,8 @@ h2.about {
 img.about{
   margin-left: 20px;
   margin-top: 40px;
-  height: 560px;
   border: 2px solid #383838;
+ height: 560px;
 }
 img.icons{
   height: 30px;
