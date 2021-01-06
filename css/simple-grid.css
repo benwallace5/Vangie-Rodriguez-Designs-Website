@@ -29,8 +29,9 @@ body {
 
 /*  Index page styles*/
   .navigation{
-
+    text-decoration: none;
   }
+
   .logo{
     line-height: .5;
     text-align: left;
