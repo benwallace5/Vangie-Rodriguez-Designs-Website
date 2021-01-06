@@ -16,6 +16,7 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
+  background-color: #DEDDDD;
 }
 
 /* ROOT FONT STYLES */
@@ -26,14 +27,14 @@ body {
   line-height: 1.5;
 }
 
-/*  Index STYLES */
+/*  Index page styles*/
   .navigation{
-    
+
   }
   .logo{
     line-height: .5;
     text-align: left;
-
+    padding-left:3px;
   }
   .logoContainer{
     border-style: solid;
@@ -42,6 +43,40 @@ body {
   .learnmore{
     text-align:center;
     border: solid;
+  }
+
+  #middleline{
+    padding-top: 20px;
+    padding-bottom: 0px;
+
+  }
+
+  #clothing{
+    text-align:center;
+  }
+
+  #paintingparty{
+    text-align:center;
+  }
+
+  #canvas{
+    text-align:center;
+
+  }
+
+  #footer{
+    padding-top: 40px;
+    text-align:center;
+
+  }
+
+  .footericons{
+  padding-top:20px;
+  padding-bottom:20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
 
   }
 
@@ -64,9 +99,28 @@ h4 {
   font-size: 1.125rem;
 }
 
-h5 {
-  font-size: 1rem;
+h4 span {
+  text-align:right;
 }
+
+h5 {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.125rem;
+}
+h5:before, h5:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #000;
+  margin: auto;
+}
+h5:before {
+  margin-right: 10px
+}
+h5:after {
+  margin-left: 10px
+}
+
 
 h6 {
   font-size: 0.875rem;
@@ -122,6 +176,7 @@ p {
   position: relative;
   width: 100%;
 }
+
 
 .row [class^="col"] {
   float: left;
