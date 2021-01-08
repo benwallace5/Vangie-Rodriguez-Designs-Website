@@ -74,6 +74,8 @@ img.about{
 }
 img.icons{
   height: 30px;
+  padding-right: 1%;
+  text-decoration:none;
 }
 
 /* `Custom Text

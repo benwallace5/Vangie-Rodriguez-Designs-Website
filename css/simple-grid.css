@@ -16,7 +16,12 @@ body {
   left: 0;
   top: 0;
   font-size: 100%;
+
+}
+
+body.index{
   background-color: #DEDDDD;
+
 }
 
 /* ROOT FONT STYLES */
@@ -30,12 +35,13 @@ body {
 /*  Index page styles*/
   .navigation{
     text-decoration: none;
+
   }
 
   .logo{
     line-height: .5;
     text-align: left;
-    padding-left:3px;
+
   }
   .logoContainer{
     border-style: solid;
@@ -43,12 +49,18 @@ body {
 
   .learnmore{
     text-align:center;
-    border: solid;
+
+  }
+
+  a.learnmore{
+    text-decoration: none;
+    border: 1.5px solid black;
+    padding: 1% 1% 1% 1%;
   }
 
   #middleline{
-    padding-top: 20px;
-    padding-bottom: 0px;
+    padding-top: 4%;
+    padding-bottom: 4%;
 
   }
 
@@ -66,7 +78,8 @@ body {
   }
 
   #footer{
-    padding-top: 40px;
+    padding-top: 8%;
+    padding-bottom: 8%;
     text-align:center;
 
   }
