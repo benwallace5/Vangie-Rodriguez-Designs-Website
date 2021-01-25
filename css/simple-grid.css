@@ -32,7 +32,33 @@ body.index{
   line-height: 1.5;
 }
 
+/* About page styles*/
+
+h2.about {
+  font-size: 27;
+  border-bottom: 1px solid #000;
+}
+
+img.about{
+  margin-left: 20px;
+  margin-top: 40px;
+  border: 2px solid #383838;
+ height: 560px;
+}
+img.icons{
+  height: 30px;
+  padding-right: 1%;
+  text-decoration:none;
+}
+
+p.about{
+  font-size: 15px;
+}
+
+
+
 /*  Index page styles*/
+
   .navigation{
     text-decoration: none;
 
