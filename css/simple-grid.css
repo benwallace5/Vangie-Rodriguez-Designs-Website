@@ -65,13 +65,10 @@ p.about{
   }
 
   .logo{
-    line-height: .5;
-    text-align: left;
+    height: 10%;
 
   }
-  .logoContainer{
-    border-style: solid;
-  }
+
 
   .learnmore{
     text-align:center;
